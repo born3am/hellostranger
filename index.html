@@ -1,0 +1,208 @@
+<!-- 
+[Client] DCI - Final Project MAT  
+
+version:   1.0 
+date:      09.feb.2021 
+author:    [Pedró Sìlvá] 
+email:     [psmaranhao@gmail.com] 
+website:   [----//----] 
+version history: [----//----]  -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello!!!</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Tillana:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Site navigation menu -->
+    <header>
+        <nav>
+
+            <ul>
+                <li><a href="#">Home</a>
+                <li><a href="#say_hello">Say Hello</a>
+                <li><a href="#quiz">Quiz!</a>
+                <li><a href="#about">About Me</a>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <div class="title">
+            <h1>...Hello Stranger!</h1>
+        </div>
+
+        <!-- FIRST PAGE -->
+
+        <div class="intro">
+            <h2>One word, several ways</h2>
+            <p>
+                Did you know that it is possible to say hello to someone in thousands of ways? </p>
+            <p>
+                Human beings so far identified 7.099 different languages or dialects.
+            </p>
+            <p>Moreover, each language also has multiple ways to say hello, often changing according to its region. </p>
+
+            <p>In Germany for example, we have: <em> Hallo, Moin, Moin-Moin, Na, Halli-Hallo, Gude, Hallöchen, Servus,
+                    Jo!... </em> </p>
+
+            <p class="floor">
+                This website aims to identify as many hellos as possible around the globe.
+            </p>
+        </div>
+        <div>
+            <img class="buzz" src="./img/buzz2.png" alt="buzz looking  up" title="Hi, I am Buzz!">
+        </div>
+
+        <!-- Section HELLO -->
+
+        <section>
+            <div class="say">
+                <h3><a name="say_hello">Say Hello</a> </h3>
+                <h4>Let us know your special way to say Hello. <span><img id="coolguy"
+                            src="./img/silhouette-3134574_1280.png" alt="shadow of a man" title="Hi visitor"></span>
+                </h4>
+                <p> We are building our database of "hellos" available around the globe. Soon, we will make it available
+                    for you.</p>
+                <p> Would you like to give your contribution? So, just send us a Hello! </p>
+                <section class="formHello">
+                    <form action="">
+                        Name (*): <input required type="text" name="your_name" placeholder="Tell your name here"
+                            maxlength="100"> <br>
+                        Email: <input type="email" name="email" placeholder="your email, if you want" maxlength="100">
+                        <br>
+                        Language or Dialect of your Hello? (*) <input required type="text" name="language"
+                            placeholder="I am curious..." maxlength="100">
+
+                        <br>What category?
+                        <select name="List" id="list_language">
+                            <option value="">Choose one</option>
+                            <option value="Language">--------</option>
+                            <option value="Dialect">Language</option>
+                            <option value="Dialect">Dialect</option>
+
+                        </select>
+                        <br> Is it a local slang?
+                        <select name="List" id="list_language">
+                            <option value="">Choose one</option>
+                            <option value="Language">--------</option>
+                            <option value="Dialect">yes</option>
+                            <option value="Dialect">no</option>
+                        </select>
+
+                        <br>
+
+                        <span class="hellotoyou">My hello is (*):</span> <input required type="text"
+                            placeholder="I am anxious to know" maxlength="100">
+
+                        <br><br>
+                        Why is it special for you?
+                        <br>
+                        <textarea name="" id="" cols="60" rows="5" maxlength="1000">  </textarea>
+                        <br>
+                        (*) Required fields. <br> <br>
+                </section>
+                <section class="formEnd">
+                    <label for="mailling">Wanna receive our newsletter? </a></label>
+
+                    <input class="checkBox" type="checkbox" name="" id="mailling">
+                    <br>
+                    <input class="confirmBox" id type="submit" value="Confirm">
+                </section>
+                </form>
+
+
+            </div>
+
+
+            <!-- Section QUIZ -->
+
+            <div>
+                <h3><a name="quiz">Quiz!</a> </h3>
+                <h4>Wanna test your global "Hello" knowledge? <span><img id="questionMark"
+                            src="./img/question-1243504_1280.png" alt="Question Mark" title="You seem smart"></span>
+                </h4>
+                <p>The Quiz is still being built and soon you will have several different questions here. </p>
+                <p>So far, you have this one: </p>
+
+                <p class="formQuiz"> The word "Talofa" is a "Hello" in what language? </p>
+                <p class="radioItens">
+                    <br>
+                    <input type="radio" name="answerQuiz" id="Quiz" value="Samoan">
+                    <label for="Samoan">Samoan</label>
+                    <br>
+                    <input type="radio" name="answerQuiz" id="Quiz" value="Indonesian">
+                    <label for="Indonesian">Indonesian</label>
+                    <br>
+                    <input type="radio" name="answerQuiz" id="Quiz" value="Turkish">
+                    <label for="Turkish">Turkish</label>
+                    <br>
+                    <input type="radio" name="answerQuiz" id="Quiz" value="Bulgarian">
+                    <label for="Bulgarian">Bulgarian</label>
+                    <br>
+                    <input type="radio" name="answerQuiz" id="Quiz" value="Yoruba">
+                    <label for="Yoruba">Yoruba</label>
+
+                </p>
+                <p class="confirmBoxQuiz">
+                    <input id type="submit" value="Confirm">
+
+                </p>
+
+            </div>
+
+
+            <!-- Section ABOUT -->
+
+            <div>
+                <h3><a name="about">About Me</a> </h3>
+                <h4>Who am I? And why I am doing this?</h4>
+                <img id="me" src="./img/me.jpg" alt="Me in Rio" title="Hi, that´s me!">
+                <p>I am a web-development student and different than you might be thinking so far, I am not a fan of
+                    radical sports at all. </p>
+                <p>This picture is just an optical illusion... The safe floor was just one meter under my
+                    feet. </p>
+                <p>This website is my first website and was inspired by the worldwide well-known first website template:
+                    "Hello World!" </p>
+                <p>The title was inspired by the film "<span id="closer" ><a href="https://www.youtube.com/watch?v=KhWTWgMPOvE&t=2s" target="_isblank" >Closer</a></span>" (2004, Mike Nichols), and the short dialogue at the very
+                    beginning between the characters of Natalie Portman and Jude Law. </p>
+
+
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div>Designed by Pedró Sìlvá</div>
+
+        <div class="footerDiv">
+            <a id="footerLink" href="#">"To the top and (not) beyond)"</a>
+        </div>
+    </footer>
+
+
+
+</body>
+
+
+</html>
